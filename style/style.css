@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+body{
+    background-color: #fed049;
+    margin: 0;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: #282846;
+}
+#time{
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+    padding: 60px;
+    font-size: 35px;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+#date-box{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+#date-box input[type=date]{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#date-box button{
+    width: 180px;
+    height: 50px;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#result{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    padding: 60px;
+}
