@@ -35,9 +35,7 @@ if(second < 10){
 const full_date = "Today is:" + "<br/>" + dayw + " the " + day + numeral() + " of " + month + ", " + year + " [" + hour + ":" + minute + ":" + second + "]";
 
 what_time.innerHTML = full_date;
-setInterval(() =>{
-    now();
-}, 1000);
+setTimeout(now, 1000);
 }
 window.onload = () => {
     now();
